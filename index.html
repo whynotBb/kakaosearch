@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <script type="module">
+      import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+    </script>
+    <title>Document</title>
+    <script src="./search.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>KAKAO <strong>SEARCH</strong></h1>
+    </header>
+    <div class="search-box">
+      <input type="text" class="search-txt" />
+      <button class="btn-search">
+        <span class="material-icons"> search </span>
+      </button>
+    </div>
+    <ul class="recent-search-word">
+      <!-- <li>전지현</li>
+      <li>송혜교</li> -->
+    </ul>
+    <ul class="list"></ul>
+  </body>
+</html>
